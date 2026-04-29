@@ -1,0 +1,20 @@
+package atividade_8;
+
+import java.util.Scanner;
+
+public class atividade_3 {
+    static void main() {
+        Scanner sc=new Scanner(System.in);
+        int b;
+        System.out.println("escreva o conjunto de peças que você tem");
+        do {
+            b = sc.nextInt();
+            System.out.println("escreva novamente o conjunto de peças que você tem");
+        }while (b<50);
+        System.out.println("o seu numero de peças que você tem é :" +b);
+        sc.close();
+        //Contagem de Peças: Um sensor óptico conta peças em uma esteira. O
+        //algoritmo deve somar 1 a uma variável total a cada ciclo do "Faça Enquanto"
+        //até chegar a 50 peças.
+    }
+}
