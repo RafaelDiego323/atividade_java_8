@@ -1,0 +1,20 @@
+package atividade_8;
+
+import java.util.Scanner;
+
+public class atividade_2 {
+    static void main() {
+        Scanner sc =new Scanner(System.in);
+        int b;
+        System.out.println("escreva a pressão de ate 10 bar");
+        do {
+            b= sc.nextInt();
+            System.out.println("escreva a pressão novamente");
+        }while (b<10);
+        System.out.println("obrigado ja estamos calibrando o pneu do seu carro");
+        sc.close();
+                //Calibração de Pressão: O sistema deve solicitar a pressão de uma caldeira. Se
+        //a pressão for menor que 10 bar, peça nova leitura. Pare quando atingir o nível
+        //ideal.
+    }
+}
