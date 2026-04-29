@@ -1,0 +1,21 @@
+package atividade_8;
+
+import java.util.Scanner;
+
+public class atividade_4 {
+    static void main() {
+        Scanner sc = new Scanner(System.in);
+        int t;
+        System.out.println("escreva o nivel de combustivel  esta o tanque de gasolina do seu automovel");
+        do {
+            t= sc.nextInt();
+            System.out.println("enchendo");
+            System.out.println("digite novamente o nivel do oleo");
+        }while (t<80);
+        System.out.println("o seu tanque de gasolina esta enchendo");
+        sc.close();
+                //Nível de Reservatório: Leia o nível de um tanque de óleo (0 a 100%). Enquanto
+        //o nível for menor que 80%, o algoritmo deve exibir "Enchendo..." e pedir nova
+        //leitura.
+    }
+}
