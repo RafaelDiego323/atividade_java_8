@@ -1,0 +1,20 @@
+package atividade_8;
+
+import java.util.Scanner;
+
+public class atividade_1 {
+    static void main() {
+        Scanner sc =new Scanner(System.in);
+        int t;
+        System.out.println("escreva sua temperatura");
+        do {
+            t= sc.nextInt();
+            System.out.println("escreva sua temperatura novamente");
+        }while (t<180);
+        System.out.println("o lado bom é que acabou o frio ne");
+        sc.close();
+        //Leitura de Temperatura: Crie um algoritmo que leia a temperatura de uma
+        //extrusora. O programa deve repetir a leitura "Enquanto" a temperatura for
+        //inferior a 180°C.
+    }
+}
